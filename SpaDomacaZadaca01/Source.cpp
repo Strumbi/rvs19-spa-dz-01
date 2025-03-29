@@ -1,11 +1,11 @@
 #include <SFML/Graphics.hpp>
 #include "Cvijet.h"
 
-//clang++ -std=c++17 *.cpp -o Source \-I$(brew --prefix sfml@2)/include \-L$(brew --prefix sfml@2)/lib \-lsfml-graphics -lsfml-window -lsfml-system
+//Za mac: clang++ -std=c++17 *.cpp -o Source \-I$(brew --prefix sfml@2)/include \-L$(brew --prefix sfml@2)/lib \-lsfml-graphics -lsfml-window -lsfml-system
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "Hello, SFML world!");
+	sf::RenderWindow window(sf::VideoMode(800, 600), "Erik Strumberger cvijet");
 	window.setFramerateLimit(60);
 	Cvijet cvijet(&window);
 
